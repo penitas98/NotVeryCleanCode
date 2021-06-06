@@ -2,7 +2,7 @@ package record.command;
 
 public class FileUploadCommand {
     public String getFee() {
-        return null;
+        return "yes";
     }
 
     public Integer getTotalRecords() {
