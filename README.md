@@ -10,5 +10,8 @@ and won't actually work.
 
 Assignment: 
 Fork this repository and please go to 
-[Code Cleaning: A Refactoring Example In 50 Easy Steps](https://www.lagerweij.com/2011/05/28/code-cleaning-a-refactoring-example-in-50-easy-steps)
-and complete the steps.
+[Code Cleaning: A Refactoring Example In 50 Easy Steps](https://www.lagerweij.com/2011/05/28/code-cleaning-a-refactoring-example-in-50-easy-steps) and complete the steps (you can skip step no. 7).
+
+* SUFFICIENT: 1-20
+* SATISFACTORY: 1-35
+* EXCELLENT: 1-50
