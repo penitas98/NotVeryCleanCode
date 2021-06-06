@@ -1,21 +1,41 @@
 package domain;
 
-import java.math.BigDecimal;
-
 public class Client {
-    public String getCreditDebit() {
-        return null;
-    }
 
-    public Object getProfile() {
-        return null;
-    }
+    private String counterTransfer;
+    private Integer amountDivider;
+    private String creditDebit;
+    private Object profile;
 
     public String getCounterTransfer() {
-        return null;
+        return counterTransfer;
+    }
+
+    public void setCounterTransfer(String counterTransfer) {
+        this.counterTransfer = counterTransfer;
     }
 
     public Integer getAmountDivider() {
-        return null;
+        return amountDivider;
+    }
+
+    public void setAmountDivider(Integer amountDivider) {
+        this.amountDivider = amountDivider;
+    }
+
+    public String getCreditDebit() {
+        return creditDebit;
+    }
+
+    public void setCreditDebit(String creditDebit) {
+        this.creditDebit = creditDebit;
+    }
+
+    public Object getProfile() {
+        return profile;
+    }
+
+    public void setProfile(Object profile) {
+        this.profile = profile;
     }
 }
