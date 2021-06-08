@@ -4,39 +4,49 @@ import java.math.BigDecimal;
 import java.util.Collection;
 
 public class AmountAndRecordsPerBank {
-    public void setBankName(String toString) {
-
-    }
-
-    public void setTotalRecord(int i) {
-
-    }
-
-    public void setAmount(BigDecimal amount) {
-
-    }
-
-    public void setCurrencyType(Object currencyType) {
-
-    }
-
-    public void setAccountNumber(Object beneficiaryAccountNumber) {
-
-    }
+    private String bankName;
+    private Integer totalRecord;
+    private BigDecimal amount;
+    private String currencyType;
+    private String accountNumber;
 
     public String getBankName() {
-        return null;
+        return bankName;
     }
 
-    public String getCurrencyType() {
-        return null;
-    }
-
-    public BigDecimal getAmount() {
-        return null;
+    public void setBankName(String bankName) {
+        this.bankName = bankName;
     }
 
     public Integer getTotalRecord() {
-        return null;
+        return totalRecord;
+    }
+
+    public void setTotalRecord(Integer totalRecord) {
+        this.totalRecord = totalRecord;
+    }
+
+    public BigDecimal getAmount() {
+        return amount;
+    }
+
+    public void setAmount(BigDecimal amount) {
+        this.amount = amount;
+    }
+
+    public String getCurrencyType() {
+        return currencyType;
+    }
+
+    public void setCurrencyType(String currencyType) {
+        this.currencyType = currencyType;
+    }
+
+    public String getAccountNumber() {
+        return accountNumber;
+    }
+
+    public void setAccountNumber(String accountNumber) {
+        this.accountNumber = accountNumber;
     }
 }

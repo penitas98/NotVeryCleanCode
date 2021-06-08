@@ -1,11 +1,22 @@
 package domain;
 
 public class Currency {
-    public Object getCode() {
-        return null;
+    private String code;
+    private String currencyType;
+
+    public String getCode() {
+        return code;
+    }
+
+    public void setCode(String code) {
+        this.code = code;
     }
 
     public String getCurrencyType() {
-        return null;
+        return currencyType;
+    }
+
+    public void setCurrencyType(String currencyType) {
+        this.currencyType = currencyType;
     }
 }
