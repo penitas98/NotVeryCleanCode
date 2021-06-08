@@ -15,7 +15,7 @@ Assignment:
 Fork or download this repository and please go to 
 [Code Cleaning: A Refactoring Example In 50 Easy Steps](https://www.lagerweij.com/2011/05/28/code-cleaning-a-refactoring-example-in-50-easy-steps) and complete the steps (you can skip step no. 7).
 
-**Please make a commit after every level (sufficient, satisfactory, excellent) with a message which steps were completed.**
+**Please make a commit after every level (sufficient, satisfactory, excellent) or with a message which steps were completed. It will help checking your soultion**
 
 * SUFFICIENT: 1-16
 * SATISFACTORY: 1-30
