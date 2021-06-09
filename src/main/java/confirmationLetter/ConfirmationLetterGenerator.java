@@ -3,7 +3,7 @@ package confirmationLetter;
 import java.math.BigDecimal;
 import java.util.*;
 
-import dao.CurrencyDao;
+import dao.CurrencyDao; 
 import domain.*;
 import domain.Currency;
 import org.apache.commons.lang.StringUtils;
